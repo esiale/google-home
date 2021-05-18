@@ -14,3 +14,30 @@ header ul {
     flex-direction: row;
     justify-content: flex-end;
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    margin: 2vh;
+}
+
+main img {
+    margin: 2vh;
+}
+
+.searchpanel {
+    display: flex;
+    max-height: 4vh;
+    border: 2px solid #ECECEC;
+    border-radius: 25vh;
+}
+
+#microphone {
+    height: 
+}
