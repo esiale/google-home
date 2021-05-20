@@ -1,9 +1,36 @@
+
+
+html {
+    font-size: 62.5%;
+    font-family: Arial;
+}
+
+
+body {
+    font-size: 1.6rem;
+}
+
+* { font-family: inherit;
+    font-size: inherit;
+}
+
+a {
+    outline: none; 
+    text-decoration: none;
+    color: #000000;
+}
+
+.material-icons {
+    color: #707579;
+}
+
 #b-circle {
     border-radius: 50%;
 }
 
 .wrapper {
     min-height: 100vh;
+    min-width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -13,6 +40,12 @@ header ul {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    align-items: center;
+}
+
+header ul li {
+    margin: 0.9rem;
+    font-size: 1.3rem;
 }
 
 main {
@@ -21,23 +54,96 @@ main {
     align-items: center;
 }
 
+main p {
+    font-size: 1.3rem;
+}
+
 .buttons {
     display: flex;
     flex-direction: row;
-    margin: 2vh;
+    margin: 2rem;
+}
+
+.buttons button {
+    background-color: white;
+    border: 0;
+    font-size: 1.4rem;
 }
 
 main img {
-    margin: 2vh;
+    margin: 2rem;
+}
+
+main p a {
+    color: blue;
 }
 
 .searchpanel {
+    box-sizing: border-box;
     display: flex;
-    max-height: 4vh;
-    border: 2px solid #ECECEC;
-    border-radius: 25vh;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 4.5rem;
+    width: 60%;
+    border: 0.1rem solid #ECECEC;
+    border-radius: 2rem;
+}
+
+.searchbox {
+    width: 100%;
+    outline: none;
+    border: none;
+    font-size: 1.6rem;
+
 }
 
 #microphone {
-    height: 
+    height: 2.5rem;
+}
+
+.material-icons {
+    margin: 1rem;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #f2f2f2;
+    color: #666;
+    font-size: 1.4rem;
+}
+
+.footer-top {
+    display: flex;
+}
+
+.footer-middle {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.footer-bottom-left {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.footer-bottom-right {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.footer-bottom-right li {
+    margin: 1.2rem;
+}
+.footer-bottom-left li {
+    margin: 1.2rem;
 }
