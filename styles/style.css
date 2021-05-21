@@ -61,13 +61,14 @@ main p {
 .buttons {
     display: flex;
     flex-direction: row;
-    margin: 2rem;
+    margin: 3rem;
 }
 
 .buttons button {
     background-color: white;
     border: 0;
     font-size: 1.4rem;
+    margin: 2rem;
 }
 
 main img {
@@ -95,8 +96,13 @@ main p a {
     outline: none;
     border: none;
     font-size: 1.6rem;
-
 }
+
+.searchpanel:hover {
+    box-shadow: 0.2rem 0.4rem 0.7rem -0.3rem #CCC,
+                -0.1rem -0.1rem 0.7rem -0.3rem #CCC;
+}
+
 
 #microphone {
     height: 2.5rem;
@@ -104,6 +110,10 @@ main p a {
 
 .material-icons {
     margin: 1rem;
+}
+
+.language a:hover {
+    text-decoration: underline;
 }
 
 footer {
@@ -114,31 +124,54 @@ footer {
     font-size: 1.4rem;
 }
 
+* footer a {
+    color: #666;
+}
+
+* footer a:hover {
+    text-decoration: underline;
+}
+
 .footer-top {
     display: flex;
+    height: 4.5rem;
+    border-bottom: 0.15rem solid #dbdbdb;
+    align-items: center;
+}
+
+.footer-top p {
+    margin-left: 3rem;
 }
 
 .footer-middle {
     display: flex;
     justify-content: center;
+    height: 5rem;
+}
+
+.footer-middle p {
+    margin-top: 2rem;
+}
+
+.footer-middle img {
+    width: 1.2rem;
 }
 
 .footer-bottom {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    height: 5rem;
 }
 
 .footer-bottom-left {
     display: flex;
     justify-content: center;
-    margin: 1rem;
 }
 
 .footer-bottom-right {
     display: flex;
     justify-content: center;
-    margin: 1rem;
 }
 
 .footer-bottom-right li {
