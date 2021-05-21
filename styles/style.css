@@ -75,7 +75,10 @@ main p {
 }
 
 .buttons button:hover {
-    border: 0.1rem solid #ccc;
+    border-top: 0.1rem solid #dbdbdb;
+    border-left: 0.1rem solid #dbdbdb;
+    border-right: 0.1rem solid #dbdbdb;
+    border-bottom: 0.2rem solid #dbdbdb;
     border-radius: 0.5rem;
 }
 
